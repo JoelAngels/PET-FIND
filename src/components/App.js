@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from "./Footer";
+import Footer from "../components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Home from "../components/Home/Home";
 import AnimalList from "./AnimalList";
@@ -22,7 +22,6 @@ function App() {
           element={<OrganizationDetails />}
         ></Route>
       </Routes>
-      {/* <Home /> */}
       <Footer />
     </div>
   );

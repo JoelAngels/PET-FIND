@@ -1,5 +1,5 @@
 import React from "react";
-import Kombucha from "../../images/Kombucha1.jpg";
+import dogi from "../../images/dogi.jpg";
 import "./Home.css";
 
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
     <div className="section-a">
       <div className="container">
         <div className="image-kom">
-          <img src={Kombucha} alt="img" />
+          <img src={dogi} alt="img" />
         </div>
 
         <div className="text">
@@ -28,16 +28,16 @@ function Home() {
           </a>
           <div className="column-grid">
             <div className="column-1">
-              <h3>Ingredients</h3>
-              <p>100% Organic</p>
+              <h3>Dogs</h3>
+              <p>Domestic Animals</p>
             </div>
             <div className="column-2">
-              <h3>Flavours</h3>
-              <p>5 variations</p>
+              <h3>Cats</h3>
+              <p>Tamed Animals</p>
             </div>
             <div className="column-3">
-              <h3>Volume</h3>
-              <p>465ml</p>
+              <h3>Family Friendly</h3>
+              <p>kids safe</p>
             </div>
           </div>
         </div>
