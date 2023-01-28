@@ -30,7 +30,13 @@ function Footer() {
                 aria-label="Facebook"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-facebook"></i>
+                <a
+                  href="https://www.instagram.com/__cosm0/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
               </div>
               <div
                 className="social-icons-link"
@@ -38,7 +44,13 @@ function Footer() {
                 aria-label="Facebook"
                 rel="noopener noreferrer"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <a
+                  href="https://www.facebook.com/daryl.mutai"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
               </div>
               <div
                 className="social-icons-link"
